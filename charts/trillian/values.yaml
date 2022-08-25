@@ -3,13 +3,13 @@ namespace:
   name: trillian-system
 initContainerImage:
   curl:
-    registry: docker.io
+    registry: mirror.gcr.io
     repository: curlimages/curl
     # 7.83.1
     version: "sha256:e83fef2d5a036d40df4ded829141e8c0ec41871490d252fb8c81cb4580ebb35b"
     imagePullPolicy: IfNotPresent
   netcat:
-    registry: docker.io
+    registry: mirror.gcr.io
     repository: toolbelt/netcat
     # 2022-05-23
     version: "sha256:7d921b6d368fb1736cb0832c6f57e426c161593c075847af3378eb3185801cea"

@@ -30,7 +30,7 @@ The following table lists the configurable parameters of the ctlog chart and the
 | createctconfig.image.repository | string | `"sigstore/scaffolding/createctconfig"` |  |
 | createctconfig.image.version | string | `"sha256:2795b42d3b42cdb9eaf3825e0bca742963208a51e30d5a7173f8a68ac6d47732"` |  |
 | createctconfig.initContainerImage.curl.imagePullPolicy | string | `"IfNotPresent"` |  |
-| createctconfig.initContainerImage.curl.registry | string | `"docker.io"` |  |
+| createctconfig.initContainerImage.curl.registry | string | `"mirror.gcr.io"` |  |
 | createctconfig.initContainerImage.curl.repository | string | `"curlimages/curl"` |  |
 | createctconfig.initContainerImage.curl.version | string | `"sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498"` | 7.82.0 |
 | createctconfig.logPrefix | string | `"sigstorescaffolding"` |  |

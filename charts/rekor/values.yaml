@@ -5,7 +5,7 @@ imagePullSecrets:
 
 initContainerImage:
   curl:
-    registry: docker.io
+    registry: mirror.gcr.io
     repository: curlimages/curl
     # -- 7.82.0
     version: "sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498"
@@ -23,7 +23,7 @@ redis:
     - "yes"
   name: redis
   image:
-    registry: docker.io
+    registry: mirror.gcr.io
     repository: redis
     pullPolicy: IfNotPresent
     # -- 6.2.6-alpine3.15

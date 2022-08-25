@@ -48,7 +48,7 @@ The following table lists the configurable parameters of the Rekor chart and the
 | forceNamespace | string | `""` |  |
 | imagePullSecrets | string | `nil` |  |
 | initContainerImage.curl.imagePullPolicy | string | `"IfNotPresent"` |  |
-| initContainerImage.curl.registry | string | `"docker.io"` |  |
+| initContainerImage.curl.registry | string | `"mirror.gcr.io"` |  |
 | initContainerImage.curl.repository | string | `"curlimages/curl"` |  |
 | initContainerImage.curl.version | string | `"sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498"` | 7.82.0 |
 | namespace.create | bool | `false` |  |
@@ -60,7 +60,7 @@ The following table lists the configurable parameters of the Rekor chart and the
 | redis.enabled | bool | `true` |  |
 | redis.hostname | string | `""` |  |
 | redis.image.pullPolicy | string | `"IfNotPresent"` |  |
-| redis.image.registry | string | `"docker.io"` |  |
+| redis.image.registry | string | `"mirror.gcr.io"` |  |
 | redis.image.repository | string | `"redis"` |  |
 | redis.image.version | string | `"sha256:6c42cce2871e8dc5fb3e843ed5c4e7939d312faf5e53ff0ff4ca955a7e0b2b39"` | 6.2.6-alpine3.15 |
 | redis.name | string | `"redis"` |  |

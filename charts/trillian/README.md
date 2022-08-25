@@ -26,11 +26,11 @@ The following table lists the configurable parameters of the trilian chart and t
 |-----|------|---------|-------------|
 | forceNamespace | string | `""` |  |
 | initContainerImage.curl.imagePullPolicy | string | `"IfNotPresent"` |  |
-| initContainerImage.curl.registry | string | `"docker.io"` |  |
+| initContainerImage.curl.registry | string | `"mirror.gcr.io"` |  |
 | initContainerImage.curl.repository | string | `"curlimages/curl"` |  |
 | initContainerImage.curl.version | string | `"sha256:faaba66e89c87fd3fb51336857142ee6ce78fa8d8f023a5713d2bf4957f1aca8"` |  |
 | initContainerImage.netcat.imagePullPolicy | string | `"IfNotPresent"` |  |
-| initContainerImage.netcat.registry | string | `"docker.io"` |  |
+| initContainerImage.netcat.registry | string | `"mirror.gcr.io"` |  |
 | initContainerImage.netcat.repository | string | `"toolbelt/netcat"` |  |
 | initContainerImage.netcat.version | string | `"sha256:99a582fa45fe1b50c97c652c9ada24b96c80d7071283227bd9a9f8eaa1c7a12b"` |  |
 | logServer.enabled | bool | `true` |  |

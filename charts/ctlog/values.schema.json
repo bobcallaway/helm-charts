@@ -849,7 +849,7 @@
                                     "default": "",
                                     "title": "The registry Schema",
                                     "examples": [
-                                        "docker.io"
+                                        "mirror.gcr.io"
                                     ]
                                 },
                                 "repository": {
@@ -878,7 +878,7 @@
                                 }
                             },
                             "examples": [{
-                                "registry": "docker.io",
+                                "registry": "mirror.gcr.io",
                                 "repository": "curlimages/curl",
                                 "version": "sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498",
                                 "imagePullPolicy": "IfNotPresent"
@@ -887,7 +887,7 @@
                     },
                     "examples": [{
                         "curl": {
-                            "registry": "docker.io",
+                            "registry": "mirror.gcr.io",
                             "repository": "curlimages/curl",
                             "version": "sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498",
                             "imagePullPolicy": "IfNotPresent"
@@ -1059,7 +1059,7 @@
                 "name": "createctconfig",
                 "initContainerImage": {
                     "curl": {
-                        "registry": "docker.io",
+                        "registry": "mirror.gcr.io",
                         "repository": "curlimages/curl",
                         "version": "sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498",
                         "imagePullPolicy": "IfNotPresent"
@@ -1243,7 +1243,7 @@
             "name": "createctconfig",
             "initContainerImage": {
                 "curl": {
-                    "registry": "docker.io",
+                    "registry": "mirror.gcr.io",
                     "repository": "curlimages/curl",
                     "version": "sha256:dca6e1b1c8e7b8b8e7be4e79fc78a858d12fd56245cb31bfa281dbf7c73a6498",
                     "imagePullPolicy": "IfNotPresent"

@@ -5,13 +5,13 @@
     },
     "initContainerImage": {
         "curl": {
-            "registry": "docker.io",
+            "registry": "mirror.gcr.io",
             "repository": "curlimages/curl",
             "version": "sha256:faaba66e89c87fd3fb51336857142ee6ce78fa8d8f023a5713d2bf4957f1aca8",
             "imagePullPolicy": "IfNotPresent"
         },
         "netcat": {
-            "registry": "docker.io",
+            "registry": "mirror.gcr.io",
             "repository": "toolbelt/netcat",
             "version": "sha256:99a582fa45fe1b50c97c652c9ada24b96c80d7071283227bd9a9f8eaa1c7a12b",
             "imagePullPolicy": "IfNotPresent"
