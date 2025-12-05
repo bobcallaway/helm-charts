@@ -6,6 +6,13 @@ on:
       - main
     paths:
       - "charts/**"
+  workflow_call:
+    inputs:
+      chart_name:
+        required: false
+        type: string
+        default: ''
+        description: 'chart to manually run release for'
 
 jobs:
   release:
@@ -48,6 +55,8 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f # v1.7.0
+        with:
+          charts_dir: ${{ inputs.chart_name && format('charts/{0}', inputs.chart_name) || 'charts' }}
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           CR_SIGN: "true"
